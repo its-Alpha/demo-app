@@ -9,7 +9,7 @@ const Nav = () => {
             <div className="container-fluid top-nav">
                 <div className="row align-items-center">
                     <div className="col-md-3 d-flex">
-                        <Link className="navbar-brand" to="#">
+                        <Link className="navbar-brand" to="/">
                             <img src="./images/logo.png" alt="" className="img-fluid" style={{ width: "100px"}} />
                         </Link>
 
@@ -44,14 +44,26 @@ const Nav = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link active text-white" aria-current="page" to="#">Home</Link>
+                                <Link className="nav-link active text-white" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-white" to="#">Link</Link>
+                                <Link className="nav-link text-white" to="/Deals">Deals</Link>
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link disabled text-white" to="#">Disabled</Link>
+                                <Link className="nav-link disabled text-white" to="/Customer Service">Customer Service</Link>
+                            </li>
+
+                            <li className="nav-item">
+                                <Link className="nav-link disabled text-white" to="/Giftcards">Gift Cards</Link>
+                            </li>
+
+                            <li className="nav-item">
+                                <Link className="nav-link disabled text-white" to="/Registry">Registry</Link>
+                            </li>
+
+                            <li className="nav-item">
+                                <Link className="nav-link disabled text-white" to="/Sell">Sell</Link>
                             </li>
                         </ul>
                     </div>
