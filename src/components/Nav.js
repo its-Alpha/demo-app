@@ -47,23 +47,23 @@ const Nav = () => {
                                 <Link className="nav-link active text-white" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-white" to="/Deals">Deals</Link>
+                                <Link className="nav-link text-white" to="/Deal">Deals</Link>
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link disabled text-white" to="/Customer Service">Customer Service</Link>
+                                <Link className="nav-link text-white" to="/Custom">Customer Service</Link>
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link disabled text-white" to="/Giftcards">Gift Cards</Link>
+                                <Link className="nav-link text-white" to="/Giftscard">Gift Cards</Link>
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link disabled text-white" to="/Registry">Registry</Link>
+                                <Link className="nav-link text-white" to="/Register">Registry</Link>
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link disabled text-white" to="/Sell">Sell</Link>
+                                <Link className="nav-link text-white" to="/Sell">Sell</Link>
                             </li>
                         </ul>
                     </div>
