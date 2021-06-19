@@ -1,0 +1,32 @@
+.gif{
+    text-align: center;
+}
+.list{
+    background-color: #eee;
+    padding-top: 20px;
+}
+h6{
+    font-size: 20px;
+    text-align: center;
+}
+.row{
+    justify-content: center;
+}
+label{
+    font-weight: 600;
+}
+.fname{
+    border:1px solid black;
+}
+.regi{
+    background-color: #eee;
+    border:1px solid black;
+}
+option{
+    background-color: #eee;  
+}
+.btn{
+    background-color: #bbb;
+    border-radius: 20px;
+
+}
