@@ -63,7 +63,7 @@ const Regi = () => {
                         </div>
                         <div className="col-md-2">
                             <br/>
-                            <button className="form-control btn" >Search</button>
+                            <button className="form-control btn-se" >Search</button>
                         </div>
                     </div>
                 </form>

@@ -7,6 +7,7 @@ import Signup from './pages/auth/Signup'
 import Customer from './pages/Customer'
 import Gift from './pages/Gift'
 import Regi from './pages/Regi'
+import Increment from './hooks/Increment'
 
 const Routes = () => {
     return (
@@ -21,7 +22,8 @@ const Routes = () => {
                     <Route exact path="/Giftscard" component={Gift}/>
                     <Route exact path="/Register" component={Regi}/>
                    
-                    
+                    {/* hooks */}
+                    <Route exact path="/hooks/increment" component={Increment}/>
                     
 
                     
